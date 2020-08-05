@@ -1,3 +1,5 @@
+-- When creating ID's use descriptive language ex. students_id , movies_id, etc...
+
 CREATE TABLE students (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
